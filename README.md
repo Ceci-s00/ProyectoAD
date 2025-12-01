@@ -4,16 +4,12 @@ Sistema CRUD en Java con persistencia en archivos CSV para la gestión de videoj
 
 ## 📋 Características
 
-- **CRUD completo** para videojuegos y desarrolladoras
-- **Persistencia en CSV** con rutas relativas (funciona en cualquier PC)
 - **Vinculación entre entidades** mediante ID de desarrolladora
 - **Búsqueda parametrizada**: por título, género, nombre de desarrolladora e ID
 - **Búsqueda combinada**: videojuegos por nombre de desarrolladora
 - **Validación robusta** de todas las entradas del usuario
 - **Interfaz de consola intuitiva** con menús anidados y mensajes claros
-- **Código 100% en español** con comentarios explicativos
-- **Diseño académico** pensado para proyecto de DAM (Defendible en oral)
-
+  
 ## 📂 Estructura del Proyecto
 src/
 ├── Main.java
@@ -36,7 +32,7 @@ src/
 - Salir del programa
 
 ### Menú de Videojuegos
-- Listar todos los videojuegos (con nombre real de desarrolladora)
+- Listar todos los videojuegos 
 - Añadir nuevo videojuego
 - Buscar videojuegos (submenú):
   - Por título (búsqueda parcial)
@@ -57,7 +53,7 @@ src/
 
 ## 🔒 Validaciones
 
-- **Texto**: No vacío, no solo números (`"123"` rechazado, `"Juego 2023"` aceptado)
+- **Texto**
 - **Año**: Entre 1950 y año actual + 1
 - **ID**: Número entero válido
 - **ID de Desarrolladora**: Debe existir (se muestra lista de disponibles)
