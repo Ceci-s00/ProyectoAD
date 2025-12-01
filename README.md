@@ -12,17 +12,33 @@ Sistema CRUD en Java con persistencia en archivos CSV para la gestión de videoj
   
 ## 📂 Estructura del Proyecto
 src/
+
 ├── Main.java
+
+
 ├── Gestion/
+
 │ └── GestorDatos.java
+
+
 ├── Menus/
+
 │ ├── MenuVideojuegos.java
+
 │ └── MenuDesarrolladoras.java
+
+
 ├── Entidades/
+
 │ ├── Videojuego.java
+
 │ └── Desarrolladora.java
+
+
 └── Excepciones/
+
 ├── VideojuegoNoEncontradoException.java
+
 └── DesarrolladoraNoEncontradaException.java
 
 ## 🎮 Funcionalidades
